@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- javascript -->
+    <script defer src="main.js"></script>
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header center">
+      <div class="info">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: <span class="total-followers">23,004</span></p>
+      </div>
+      <div class="dark-ligh-mode-container center">
+        <p>Dark Modes</p>
+        <div class="switch" id="dark-light-mode">
+          <div class="switchBtn"></div>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Total follower card -->
+    <div class="total-number-follower-cards center">
+      <!-- Facebook -->
+      <div class="total-number-follower-card facebook-card center">
+        <div class="total-number-follower-card--header center">
+          <img src="images/icon-facebook.svg" alt="facebook-icon" />
+          <p class="username">@nathanf</p>
+        </div>
+        <div class="total-number-follower-card--body">
+          <p class="followers center">1987</p>
+          <p class="text">FOLLOWERS</p>
+        </div>
+        <div class="total-number-follower-card--footer center">
+          <img src="images/icon-up.svg" alt="icon-up" />
+          <p class="follower-today gain"><span>12</span> Today</p>
+        </div>
+      </div>
+      <!-- Twitter -->
+      <div class="total-number-follower-card twitter-card center">
+        <div class="total-number-follower-card--header center">
+          <img src="images/icon-twitter.svg" alt="twitter-icon" />
+          <p class="username">@nathanf</p>
+        </div>
+        <div class="total-number-follower-card--body">
+          <p class="followers center">1044</p>
+          <p class="text">FOLLOWERS</p>
+        </div>
+        <div class="total-number-follower-card--footer center">
+          <img src="images/icon-up.svg" alt="icon-up" />
+          <p class="follower-today gain"><span>99</span> Today</p>
+        </div>
+      </div>
+      <!-- Instagram -->
+      <div class="total-number-follower-card instagram-card center">
+        <div class="total-number-follower-card--header center">
+          <img src="images/icon-instagram.svg" alt="instagram-icon" />
+          <p class="username">@nathanf</p>
+        </div>
+        <div class="total-number-follower-card--body">
+          <p class="followers center">11k</p>
+          <p class="text">FOLLOWERS</p>
+        </div>
+        <div class="total-number-follower-card--footer center">
+          <img src="images/icon-up.svg" alt="icon-up" />
+          <p class="follower-today gain"><span>1099</span> Today</p>
+        </div>
+      </div>
+      <!-- Youtube -->
+      <div class="total-number-follower-card youtube-card center">
+        <div class="total-number-follower-card--header center">
+          <img src="images/icon-youtube.svg" alt="youtube-icon" />
+          <p class="username">@nathanf</p>
+        </div>
+        <div class="total-number-follower-card--body center">
+          <p class="followers center">8239</p>
+          <p class="text">FOLLOWERS</p>
+        </div>
+        <div class="total-number-follower-card--footer center">
+          <img src="images/icon-down.svg" alt="down-up" />
+          <p class="follower-today lose"><span>12</span> Today</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Total follower card -->
+
+    <!-- Overview Today Cards -->
+    <div class="overview-card-section">
+      <h1>Overview - Today</h1>
+      <div class="overview-today-cards total-number-follower-cards center">
+        <!-- Facebook Views -->
+        <div class="total-number-follower-card overview-card center">
+          <div class="overview-card-header center">
+            <p>Page views</p>
+            <img src="images/icon-facebook.svg" alt="facebook-icon" />
+          </div>
+          <div class="overview-card-footer center">
+            <p class="numbers-of">87</p>
+            <div class="showing-up-or-down center">
+              <img src="images/icon-up.svg" alt="icon-up" />
+              <span class="number-of-today gain">3%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Facebook Like -->
+        <div class="total-number-follower-card overview-card center">
+          <div class="overview-card-header center">
+            <p>Likes</p>
+            <img src="images/icon-facebook.svg" alt="facebook-icon" />
+          </div>
+          <div class="overview-card-footer center">
+            <p class="numbers-of">52</p>
+            <div class="showing-up-or-down center">
+              <img src="images/icon-down.svg" alt="down-up" />
+              <span class="number-of-today lose">2%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Instagram likes -->
+        <div class="total-number-follower-card overview-card center">
+          <div class="overview-card-header center">
+            <p>Likes</p>
+            <img src="images/icon-instagram.svg" alt="instagram-icon" />
+          </div>
+          <div class="overview-card-footer center">
+            <p class="numbers-of">5462</p>
+            <div class="showing-up-or-down center">
+              <img src="images/icon-up.svg" alt="icon-up" />
+              <span class="number-of-today gain">2257%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Instagram Profile Views -->
+        <div class="total-number-follower-card overview-card center">
+          <div class="overview-card-header center">
+            <p>Profile Views</p>
+            <img src="images/icon-instagram.svg" alt="instagram-icon" />
+          </div>
+          <div class="overview-card-footer center">
+            <p class="numbers-of">52k</p>
+            <div class="showing-up-or-down center">
+              <img src="images/icon-up.svg" alt="icon-up" />
+              <span class="number-of-today gain">1375%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Twitter Retweets -->
+        <div class="total-number-follower-card overview-card center">
+          <div class="overview-card-header center">
+            <p>Retweets</p>
+            <img src="images/icon-twitter.svg" alt="twitter-icon" />
+          </div>
+          <div class="overview-card-footer center">
+            <p class="numbers-of">117</p>
+            <div class="showing-up-or-down center">
+              <img src="images/icon-up.svg" alt="icon-up" />
+              <span class="number-of-today gain">303%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Twitter Likes -->
+        <div class="total-number-follower-card overview-card center">
+          <div class="overview-card-header center">
+            <p>Likes</p>
+            <img src="images/icon-twitter.svg" alt="twitter-icon" />
+          </div>
+          <div class="overview-card-footer center">
+            <p class="numbers-of">507</p>
+            <div class="showing-up-or-down center">
+              <img src="images/icon-up.svg" alt="icon-up" />
+              <span class="number-of-today gain">553%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Youtube Likes -->
+        <div class="total-number-follower-card overview-card center">
+          <div class="overview-card-header center">
+            <p>Likes</p>
+            <img src="images/icon-youtube.svg" alt="youtube-icon" />
+          </div>
+          <div class="overview-card-footer center">
+            <p class="numbers-of">107</p>
+            <div class="showing-up-or-down center">
+              <img src="images/icon-down.svg" alt="icon-down" />
+              <span class="number-of-today lose">19%</span>
+            </div>
+          </div>
+        </div>
+        <!-- Youtube Total Views -->
+        <div class="total-number-follower-card overview-card center">
+          <div class="overview-card-header center">
+            <p>Total Views</p>
+            <img src="images/icon-youtube.svg" alt="youtube-icon" />
+          </div>
+          <div class="overview-card-footer center">
+            <p class="numbers-of">1407</p>
+            <div class="showing-up-or-down center">
+              <img src="images/icon-down.svg" alt="icon-down" />
+              <span class="number-of-today lose">12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Overview Today Cards -->
+  </body>
+</html>
